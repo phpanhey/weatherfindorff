@@ -17,8 +17,13 @@ def getTemperature(url):
 
 weather_url = "http://www.ach-du-schan.de/wetterdaten/rss.xml"
 temperature = getTemperature(weather_url)
+
 emoji = "😅"
 if temperature <= 7:
-    emoji = "🥶"
+    emoji = "🥶🧥👕"
+if temperature <= 4:
+    emoji = "🥶🧤🧥👕"
+if temperature <= 3:
+    emoji = "🥶🧤🧥👕🧣👖"
 
 print(f"{emoji}{temperature}°C")

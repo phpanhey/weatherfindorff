@@ -26,4 +26,4 @@ if temperature <= 4:
 if temperature <= 3:
     emoji = "🥶🧤🧥👕🧣👖"
 
-print(f"{emoji}{temperature}°C")
+print(f"{emoji} {temperature}°C")
